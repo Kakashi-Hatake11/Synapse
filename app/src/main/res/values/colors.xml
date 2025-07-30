@@ -1,5 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Your existing colors -->
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="purple_500">#FF6200EE</color> <!-- Example existing color, can be md_theme_primary -->
+    <color name="teal_700">#FF018786</color>   <!-- Example existing color, can be md_theme_secondary -->
+
+    <!-- Color for sent message background (Consider using a theme attribute instead) -->
+    <!-- For example, if sent messages use primary color: app:cardBackgroundColor="?attr/colorPrimary" -->
+    <!-- Or if they use a surface variant: app:cardBackgroundColor="?attr/colorSurfaceVariant" -->
+    <color name="sent_message_background">@color/md_theme_primaryContainer</color> <!-- Using md_theme_primaryContainer as an example -->
+
+    <!-- Material 3 Theme Colors (Light Theme) -->
+    <!-- Replace these placeholder hex codes with your actual app theme colors -->
+    <color name="md_theme_primary">#6200EE</color> <!-- Example: A vibrant purple -->
+    <color name="md_theme_onPrimary">#FFFFFF</color>
+    <color name="md_theme_primaryContainer">#EADDFF</color> <!-- Lighter variant of primary -->
+    <color name="md_theme_onPrimaryContainer">#21005D</color> <!-- Dark text on primaryContainer -->
+
+    <color name="md_theme_secondary">#03DAC6</color> <!-- Example: A teal/cyan -->
+    <color name="md_theme_onSecondary">#000000</color>
+    <color name="md_theme_secondaryContainer">#A7FFEB</color> <!-- Lighter variant of secondary -->
+    <color name="md_theme_onSecondaryContainer">#00201B</color> <!-- Dark text on secondaryContainer -->
+
+    <color name="md_theme_tertiary">#03A9F4</color> <!-- Example: A light blue -->
+    <color name="md_theme_onTertiary">#000000</color>
+    <color name="md_theme_tertiaryContainer">#B3E5FC</color> <!-- Lighter variant of tertiary -->
+    <color name="md_theme_onTertiaryContainer">#001E2F</color> <!-- Dark text on tertiaryContainer -->
+
+    <color name="md_theme_error">#B00020</color> <!-- Standard error red -->
+    <color name="md_theme_onError">#FFFFFF</color>
+    <color name="md_theme_errorContainer">#FCD8DF</color> <!-- Light background for error messages -->
+    <color name="md_theme_onErrorContainer">#410E0B</color> <!-- Dark text on errorContainer -->
+
+    <color name="md_theme_background">#FFFBFE</color> <!-- Very light, often off-white -->
+    <color name="md_theme_onBackground">#1C1B1F</color> <!-- Dark text on background -->
+
+    <color name="md_theme_surface">#FFFBFE</color> <!-- Same as background or slightly different -->
+    <color name="md_theme_onSurface">#1C1B1F</color> <!-- Dark text on surface -->
+
+    <color name="md_theme_surfaceVariant">#E7E0EC</color> <!-- For elements like cards, dialogs -->
+    <color name="md_theme_onSurfaceVariant">#49454F</color> <!-- Text on surfaceVariant -->
+
+    <color name="md_theme_outline">#79747E</color> <!-- For borders, dividers -->
+    <color name="md_theme_outlineVariant">#CAC4D0</color> <!-- Softer outline -->
+
+    <color name="md_theme_inverseSurface">#313033</color> <!-- Dark surface for SnackBar, etc., in light theme -->
+    <color name="md_theme_inverseOnSurface">#F4EFF4</color> <!-- Light text on inverseSurface -->
+    <color name="md_theme_inversePrimary">#D0BCFF</color> <!-- Primary color for dark elements on light theme (e.g., FAB on SnackBar) -->
+
+    <color name="md_theme_surfaceTint">@color/md_theme_primary</color> <!-- Often same as primary, used for tinting surfaces -->
+    <color name="md_theme_scrim">#000000</color> <!-- For overlays like modal bottom sheets -->
+
 </resources>

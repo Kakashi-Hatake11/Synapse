@@ -1,3 +1,63 @@
 <resources>
     <string name="app_name">Synapse</string>
+
+    <!-- Activity Titles (Primarily for Toolbar if not set dynamically) -->
+    <string name="title_activity_main">Channels</string> <!-- Used by MainActivity Toolbar -->
+    <!-- Verification and Chat activity titles are set dynamically or are simple like "Verification" / "Chat" -->
+
+    <!-- Generic UI Messages & Hints -->
+    <string name="loading">Loading...</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="app_logo">Application Logo</string> <!-- Content description for logo -->
+
+    <!-- Verification Screen -->
+    <string name="title_verification">Verification</string> <!-- Toolbar/Screen Title -->
+    <string name="verification_title">Enter Code</string> <!-- Prominent title on screen -->
+    <string name="verification_subtitle">Enter the verification code "123456" to start chatting anonymously.</string>
+    <string name="hint_verification_code">Verification Code</string>
+    <string name="button_verify">Verify &amp; Start</string> <!-- Specific to Verification button -->
+    <string name="toast_verification_successful">Verification successful!</string>
+    <string name="default_verification_code_for_testing" translatable="false">123456</string> <!-- For easy testing, not translated -->
+
+    <!-- Channel List Screen (MainActivity/ChannelListFragment) -->
+    <string name="message_no_channels_found">No channels found.\nTap the + button to create one!</string>
+    <string name="fab_description_add_channel">Add new channel</string>
+    <string name="dialog_title_create_channel">Create New Channel</string>
+    <string name="hint_channel_name">Channel Name</string>
+    <string name="hint_channel_description_optional">Description (Optional)</string>
+    <string name="button_create">Create</string>
+    <string name="menu_action_sign_out">Sign Out</string>
+    <string name="channel_icon">Channel Icon</string> <!-- Content description for channel icon in list item -->
+
+    <!-- Chat Screen (ChatActivity) -->
+    <string name="title_chat">Chat</string> <!-- Default title, often overridden by channel name -->
+    <string name="hint_type_a_message">Type a message…</string>
+    <string name="button_send_message">Send</string> <!-- Content description for send button icon -->
+    <string name="message_no_messages_yet">No messages yet. Be the first to say hi!</string>
+    <!-- <string name="sender_avatar">Sender avatar</string> --> <!-- If using avatars in chat -->
+
+
+    <!-- Error Messages -->
+    <string name="error_generic">An unexpected error occurred. Please try again.</string>
+    <string name="error_network">Please check your network connection and try again.</string>
+    <string name="error_invalid_code">Invalid verification code. Please try again.</string>
+    <string name="error_channel_name_empty">Channel name cannot be empty.</string>
+    <string name="error_sending_message">Couldn\'t send message. Try again.</string>
+    <string name="error_channel_not_found">Error: Channel not found.</string>
+
+
+    <!-- Old/Duplicate strings that were consolidated or removed: -->
+    <!-- <string name="title_activity_verification">Verify Access</string> --> <!-- Replaced by title_verification -->
+    <!-- <string name="title_activity_chat">Chat</string> --> <!-- Replaced by title_chat -->
+    <!-- <string name="verify_code_hint">Enter Verification Code</string> --> <!-- Replaced by hint_verification_code -->
+    <!-- <string name="no_channels_available">No channels available at the moment.</string> --> <!-- Replaced by message_no_channels_found -->
+    <!-- <string name="no_messages_yet">Be the first to send a message!</string> --> <!-- Replaced by message_no_messages_yet -->
+    <!-- <string name="type_a_message">Type a message</string> --> <!-- Replaced by hint_type_a_message -->
+    <!-- <string name="send_message">Send</string> --> <!-- This was generic, now more specific or used as content description -->
+
+
+    <!-- Notification Channel (Keep for future FCM implementation) -->
+    <!-- <string name="default_notification_channel_id" translatable="false">synapse_chat_notifications</string> -->
+    <!-- <string name="default_notification_channel_name">Chat Notifications</string> -->
+
 </resources>
