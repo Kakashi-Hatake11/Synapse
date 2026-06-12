@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Background color of the sent message bubble -->
+    <!-- You would typically define this color in your res/values/colors.xml -->
+    <solid android:color="@color/sent_message_background" />
+
+    <!-- Rounded corners -->
+    <!-- Adjust these values to change the roundness -->
+    <!-- You can make top-left, top-right, bottom-left different if you want a "speech bubble" tail effect,
+         but for a simple bubble, all corners are often the same except the one pointing towards the user.
+         For a sent message, often the bottom-right corner is less rounded or not rounded. -->
+    <corners
+        android:topLeftRadius="16dp"
+        android:topRightRadius="16dp"
+        android:bottomLeftRadius="16dp"
+        android:bottomRightRadius="4dp" /> <!-- Example: Less rounded bottom-right for "sent" look -->
+
+    <!-- Optional: Padding inside the shape, if needed, though usually padding is handled by the TextView itself -->
+    <!--
+    <padding
+        android:left="10dp"
+        android:top="10dp"
+        android:right="10dp"
+        android:bottom="10dp" />
+    -->
+
+    <!-- Optional: Stroke (border) around the bubble -->
+    <!--
+    <stroke
+        android:width="1dp"
+        android:color="@color/sent_message_border" />
+    -->
+
+</shape>
